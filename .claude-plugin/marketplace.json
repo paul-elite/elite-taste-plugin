@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "elite-taste",
+  "description": "Paul Elite's design taste for Claude Code: refine the UI you already have without replacing your components.",
+  "owner": {
+    "name": "Paul Elite",
+    "url": "https://elite-taste.vercel.app"
+  },
+  "plugins": [
+    {
+      "name": "elite-taste",
+      "source": "./plugins/elite-taste",
+      "category": "design",
+      "tags": ["design", "ui", "design-system", "accessibility", "mcp"]
+    }
+  ]
+}
