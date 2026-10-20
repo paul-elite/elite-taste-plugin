@@ -1,7 +1,7 @@
 {
   "name": "elite-taste",
   "displayName": "Elite Taste",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Paul Elite's design taste for your UI. Audits, refinement plans and layout guidance that work with your existing components, framework and brand.",
   "author": {
     "name": "Paul Elite",
@@ -10,14 +10,12 @@
   "homepage": "https://elite-taste.vercel.app/docs",
   "repository": "https://github.com/paul-elite/elite-taste-plugin",
   "license": "UNLICENSED",
-  "keywords": ["design", "ui", "design-system", "accessibility", "tailwind", "mcp"],
-  "userConfig": {
-    "api_key": {
-      "type": "string",
-      "title": "Elite Taste API key",
-      "description": "Create one at https://elite-taste.vercel.app/dashboard/keys. It starts with et_live_ and is stored in your system keychain.",
-      "sensitive": true,
-      "required": true
-    }
-  }
+  "keywords": [
+    "design",
+    "ui",
+    "design-system",
+    "accessibility",
+    "tailwind",
+    "mcp"
+  ]
 }

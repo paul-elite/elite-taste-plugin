@@ -20,7 +20,7 @@ The design intelligence lives on the `elite-taste` MCP server. Fetch what you ne
 | `suggest_refinements` | Ordered plan (tokens → components → screens) from an audit |
 | `get_principles` | The whole philosophy, or one category |
 
-If the server isn't connected or returns `unauthenticated`, the API key is missing or wrong. Plugin users: run `/plugin`, open **elite-taste**, choose **Configure** and paste a key from https://elite-taste.vercel.app/dashboard/keys. Everyone else: run `npx elite-taste init` and set `ELITE_TASTE_API_KEY`. If a tool returns `plan`, say which tool needs Pro and continue with what's available.
+If the server isn't connected or asks for authentication, the user needs to sign in: in Claude Code, run `/mcp`, choose **elite-taste** and **Authenticate**; a browser window opens for the Elite Taste login. If a tool returns `unauthenticated` while using an API key (`npx elite-taste init` setups), the key is missing or revoked; they can create one at https://elite-taste.vercel.app/dashboard/keys and set `ELITE_TASTE_API_KEY`. If a tool returns `plan`, say which tool needs Pro and continue with what's available.
 
 ## Step 0 — Understand the project (always)
 
